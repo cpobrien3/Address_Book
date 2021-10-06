@@ -1,0 +1,14 @@
+.git/
+
+# Compiled class file
+*.class
+
+# Eclipse
+.settings/
+.buildpath
+.classpath
+.project
+
+# Persistence
+src/META-INF/persistence.xml
+
