@@ -12,3 +12,5 @@
 # Persistence
 src/META-INF/persistence.xml
 
+/bin/
+/target/

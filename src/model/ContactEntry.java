@@ -1,7 +1,8 @@
+package model;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-public class AddressBook {
+public class ContactEntry {
 	
 	private String name;
 	private LocalDate dob;
@@ -10,11 +11,11 @@ public class AddressBook {
 	private LocalDateTime contactCreated;
 	
 	//Constructors
-	public AddressBook() {
+	public ContactEntry() {
 		
 	}
 	
-	public AddressBook(String name, LocalDate dob, String address, String phoneNumber, LocalDateTime contactCreated) {
+	public ContactEntry(String name, LocalDate dob, String address, String phoneNumber, LocalDateTime contactCreated) {
 		super();
 		this.name = name;
 		this.dob = dob;
